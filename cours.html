@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-red">
+        <a class="navbar-brand" href="#"><img src="https://www.gomycode.tn/images/nav/logo-GMC-white.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cours.html">courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact</a>
+            </li>
+         </ul>
+        </div>
+      </nav>
+    
+</ul>
+    <div class="cover">
+        Courses
+    </div>   
+    <div>
+        <div class="images">
+            <div class="viewmore">
+                <a href="#ex1" rel="modal:open"><button>view more</button></a>
+            <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel.png">
+          </div>
+          <div class="viewmore">
+              <a href="#ex1" rel="modal:open"><button>view more</button></a>
+            <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel1.png">
+          </div>
+        <div class="viewmore">
+              <a href="#ex1" rel="modal:open"><button>view more</button></a>
+            <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel2.png">
+          </div>
+      </div>
+      <div class="images">
+          <div class="viewmore">
+              <a href="#ex1" rel="modal:open"><button>view more</button></a>
+        <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel3.png">
+      </div>
+      <div class="viewmore">
+          <a href="#ex1" rel="modal:open"><button>view more</button></a>
+        <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel4.png">
+      </div>
+      <div class="viewmore">
+          <a href="#ex1" rel="modal:open"><button>view more</button></a>
+        <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel5.png">
+      </div>
+  </div>
+  <div class="images">
+      <div class="viewmore">
+          <a href="#ex1" rel="modal:open"><button>view more</button></a>
+    <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel6.png">
+  </div>
+  <div class="viewmore">
+      <a href="#ex1" rel="modal:open"><button>view more</button></a>
+    <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel7.png">
+  </div>
+  <div class="viewmore">
+      <a href="#ex1" rel="modal:open"><button>view more</button></a>
+    <img src="https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel8.png">
+  </div>
+</div>
+    </div>
+    <center>
+    <div class="form" style="width:500px !important;">
+        <label><h2>Feedback</h2></label><br>
+        <button onclick="gras()">B</button>
+        <button onclick="italic()">I</button>
+        <button onclick="underline()">Underline</button>
+        <select onclick="taille()" id="size">
+            <option value="20px">
+              20px
+            </option>
+            <option value="30px">
+              30px
+            </option>
+            <option value="40px">
+              40px
+            </option>
+            </select>
+            <select onclick="police()" id="police">
+                  <option value="Arial">
+                    Arial
+                  </option>
+                  <option value="Verdana">
+                    Verdana
+                  </option>
+                  <option value"Geneva">
+                    Geneva
+                  </option>
+                  </select>
+                  <br>
+                  <br>
+        <textarea class="form-control" id="myText" rows="3"></textarea>
+        
+      </div>
+    </center>
+    <div id="ex1" class="modal">
+        <p>Thanks for clicking. That felt good.</p>
+        <a href="#" rel="modal:close">Close</a>
+      </div>
+</body>
+<script src="js/main.js"></script>
+</html>

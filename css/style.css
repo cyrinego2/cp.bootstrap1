@@ -1,0 +1,52 @@
+body{
+    background: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-repeat: no-repeat;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+
+
+}
+#nav li a{
+    color: white;
+    text-decoration: none;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.titre{
+    color: white;
+}
+.cover{
+    background-image: url(../res/download.png);
+    height: 500px;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    color: white;
+    
+}
+.contact{
+    color: white;
+}
+
+.viewmore{
+    display: inline;
+}
+.viewmore button{
+    position: relative;
+    top: -45%;
+    left: 50%;
+}
